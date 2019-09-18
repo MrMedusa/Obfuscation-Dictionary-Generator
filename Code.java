@@ -34,8 +34,8 @@ public class GenerateObfDir {
 		return sb.toString();
 	}
 	
+	Random rn = new Random();
 	public static int getNumber() {
-		Random rn = new Random();
 		int r = rn.nextInt((1) + 1) + 1;
 		return r;
 	}
